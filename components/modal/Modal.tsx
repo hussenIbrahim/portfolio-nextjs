@@ -60,9 +60,11 @@ const MyVerticallyCenteredModal: React.FC<MyVerticallyCenteredModalProps> = (
           onSlideChange={() => console.log("slide change")}
           onSwiper={(swiper) => console.log(swiper)}
         >
-          {props.data.images.map((e) => {
+          {props.data.images.map((e,index) => {
             return (
-              <SwiperSlide>
+              <SwiperSlide
+              key={index}
+              >
                 <img
                   alt=""
                   style={{ objectFit: "contain", width: "90%" }}
