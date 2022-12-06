@@ -6,7 +6,7 @@ export const AboutMy = () => {
           <h2>About</h2>
           <p>
             Hello, my name is Hussen Hassan Ibrahim i live in Erbil - Iraq, I
-            graduated from a Sulemani University graduate with a bachelor's
+            graduated from a Sulemani University graduate with a bachelors
             degree in Computer Science,Flutter Developer with 3+ years
             experience, with excellent analytical skills, and the important
             ability to solve complex problems, I love every step of my work in
