@@ -34,7 +34,7 @@ export let workExperienceData: Array<WorkExperienceModel> = [
   },
   {
     jonTitle: "FLUTTER DEVELOPER  Part Time",
-    date: "Aug 2022 - Present",
+    date: "Aug 2022 - Dec 2022",
     companyName: "AL-JAZARY COMPANY",
     description: [
       "Responsible for UI design and implementation of existing UI",
