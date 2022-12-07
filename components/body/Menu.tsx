@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 
 export const Menu = () => {
-  const [width, setWidth] = useState(0);
+  const [width, setWidth] = useState(60000);
   const [open, setOpen] = useState(false);
 
   const router = useRouter();
@@ -27,6 +27,8 @@ export const Menu = () => {
 
   useEffect(() => {
     Aos.init();
+    setWidth(window.innerWidth);
+
     window.addEventListener("resize", handleResize);
     return () => {
       window.removeEventListener("resize", handleResize);
