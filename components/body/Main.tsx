@@ -23,8 +23,7 @@ import {
   collection,
 } from "firebase/firestore/lite";
 import { getConfirmFromUser } from "./alert";
-import firebaseApp from "../../pages/Firebase";
-import { useRouter } from "next/router";
+import firebaseApp from "../../utils/db/Firebase";
 
 const Main = () => {
   const geDate = () => {
