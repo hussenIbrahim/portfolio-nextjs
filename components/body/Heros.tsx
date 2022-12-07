@@ -9,7 +9,7 @@ export const Heros = () => {
       <div className="hero-container" data-aos="fade-in">
         <h1>Hussein Hassan Ibrahim</h1>
         <p style={{ fontSize: "30px" }}>
-          Im
+          Im{" "}
           <span>
             <Typical
               wrapper="span"
