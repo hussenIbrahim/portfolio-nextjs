@@ -1,5 +1,5 @@
 import Typical from "react-typical";
-
+// dfdsfs
 export const Heros = () => {
   return (
     <section
