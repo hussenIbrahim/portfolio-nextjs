@@ -60,11 +60,9 @@ const MyVerticallyCenteredModal: React.FC<MyVerticallyCenteredModalProps> = (
           onSlideChange={() => console.log("slide change")}
           onSwiper={(swiper) => console.log(swiper)}
         >
-          {props.data.images.map((e,index) => {
+          {props.data.images.map((e, index) => {
             return (
-              <SwiperSlide
-              key={index}
-              >
+              <SwiperSlide key={index}>
                 <img
                   alt=""
                   style={{ objectFit: "contain", width: "90%" }}
@@ -81,7 +79,7 @@ const MyVerticallyCenteredModal: React.FC<MyVerticallyCenteredModalProps> = (
           <li>
             Android :{" "}
             {props.data.androidLink != "" ? (
-              <a href={props.data.androidLink} target="_blank">
+              <a rel="noreferrer" href={props.data.androidLink} target="_blank">
                 Open
               </a>
             ) : (
@@ -91,7 +89,7 @@ const MyVerticallyCenteredModal: React.FC<MyVerticallyCenteredModalProps> = (
           <li>
             IPhone :{" "}
             {props.data.iosLink != "" ? (
-              <a href={props.data.iosLink} target="_blank">
+              <a rel="noreferrer" href={props.data.iosLink} target="_blank">
                 Open
               </a>
             ) : (
@@ -104,7 +102,7 @@ const MyVerticallyCenteredModal: React.FC<MyVerticallyCenteredModalProps> = (
 
         <ul>
           {props.data.description.map((l) => (
-            <li>{l}</li>
+            <li key={l}>{l}</li>
           ))}{" "}
         </ul>
       </Modal.Body>
