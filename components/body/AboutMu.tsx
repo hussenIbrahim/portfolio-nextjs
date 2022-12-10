@@ -54,7 +54,7 @@ export const AboutMy = () => {
                 <ul>
                   <li>
                     <i className="bi bi-chevron-right" /> <strong>Age:</strong>{" "}
-                    <span>30</span>
+                    <span>29</span>
                   </li>
                   <li>
                     <i className="bi bi-chevron-right" />{" "}
