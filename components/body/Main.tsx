@@ -28,7 +28,7 @@ import firebaseApp from "../../utils/db/Firebase";
 const Main = () => {
   const geDate = () => {
     const date = new Date();
-    var day = date.getDate() + 3;
+    var day = date.getDate() ;
     var month = date.getMonth() + 1;
     var year = date.getFullYear();
     var string = formatS(day) + "-" + formatS(month) + "-" + year;
