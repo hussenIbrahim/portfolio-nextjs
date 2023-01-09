@@ -31,7 +31,7 @@ const Main = () => {
     var day = date.getDate() ;
     var month = date.getMonth() + 1;
     var year = date.getFullYear();
-    var string = formatS(day) + "-" + formatS(month) + "-" + year;
+    var string = year+  "-" + formatS(month) + "-" + formatS(day)  ;
     return string;
   };
 
